@@ -12,7 +12,7 @@ async function bootstrap() {
     credentials: true,
     origin: [
       'http://localhost:3000',
-      'https://prisma-next-app-black.vercel.app/',
+      'https://prisma-next-app-black.vercel.app',
     ],
   });
   app.use(cookieParser());
